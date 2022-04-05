@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'iosevka-splendid';
+  src: local('iosevka-splendid'),
+  url('/public/iosevka-splendid-regular.ttf') format('ttf');
+}
+
+.mainTitle {
+  font-family: iosevka-splendid, monospace;
+  font-size: 2rem;
+  max-width: 20em;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
