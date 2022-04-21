@@ -14,7 +14,7 @@ export default function Post(){
     <Head>  
       <title> BlogName </title>
     </Head>
-    <MainTitle> I love this hotkey and so will you </MainTitle>
+    <MainTitle>  The secret key to becoming a Keyboard Ninja </MainTitle>
     <PostBody>
       <P>
         If you don't know how to touch-type, you can safely skip this post and <em>go learn touch-typing instead.</em>
