@@ -47,7 +47,7 @@ const tooltipTheme = createTheme({
   },
 });
 
-export default function({children, n=0}) {
+export default function SideNote({children, n=0}) {
   const [open, setOpen] = React.useState(false);
 
   const handleTooltipClose = () => {

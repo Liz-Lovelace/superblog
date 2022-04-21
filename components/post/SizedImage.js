@@ -16,13 +16,13 @@ function detectMediaType(src){
   return 'image';
 }
 
-export default function({children, src, width, height, alt}){
+export default function SizedImage({children, src, width, height, alt}){
   if (src[0] == '/')
     src = `${mediaPath}${src}`;
   const mediaType = detectMediaType(src);
   let media;
   if (mediaType == 'image')
-    media = <a href={src} target="_blank">
+    media = <a href={src} target="_blank" rel="noreferrer">
       <Image
         className = {styles.media}
         src = {src} 

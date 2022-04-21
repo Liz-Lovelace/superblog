@@ -1,6 +1,6 @@
 import styles from './MainTitle.module.css';
 
-export default function({children}){
+export default function MainTitle({children}){
   return <h1 className = {styles.mainTitle}>
     {children}
   </h1>

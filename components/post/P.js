@@ -1,4 +1,4 @@
-export default function({children}){
+export default function P({children}){
   let style = {
     //padding for the sidenotes to not get cut off
     paddingTop: "0.2em",
