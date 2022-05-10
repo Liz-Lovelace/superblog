@@ -3,3 +3,16 @@
 .post{
   font-family: 'Open Sans', sans-serif;
 }
+
+.post article {
+  max-width: 40rem;
+  margin: auto;
+  padding: 0 1.5em;
+  color: #3A4145;
+}
+
+.post article p {
+  line-height: 1.6em;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
